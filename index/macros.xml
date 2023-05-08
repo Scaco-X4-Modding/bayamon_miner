@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ?xml-stylesheet href="index.xsl" type="text\xsl" ? -->
+<index>
+	
+	<entry name="units_sco_xl_bayamon3_liq_macro" 		value="extensions\bayamon_miner\assets\units\size_xl\macros\units_sco_xl_bayamon3_liq_macro"/>
+	<entry name="units_sco_xl_bayamon3_sol_macro" 		value="extensions\bayamon_miner\assets\units\size_xl\macros\units_sco_xl_bayamon3_sol_macro"/>
+	<entry name="units_sco_xl_bayamon3_uni_macro" 		value="extensions\bayamon_miner\assets\units\size_xl\macros\units_sco_xl_bayamon3_uni_macro"/>
+	<entry name="units_sco_xl_bayamon3_trader_macro"	value="extensions\bayamon_miner\assets\units\size_xl\macros\units_sco_xl_bayamon3_trader_macro"/>
+
+	<entry name="engine_sco_xl_bayamon3_macro" 			value="extensions\bayamon_miner\assets\props\engines\macros\engine_sco_xl_bayamon3_macro"/>
+
+	<entry name="storage_sco_xl_bayamon3_con_macro" 	value="extensions\bayamon_miner\assets\units\size_xl\macros\storage_sco_xl_bayamon3_con_macro"/>
+	<entry name="storage_sco_xl_bayamon3_liq_macro" 	value="extensions\bayamon_miner\assets\units\size_xl\macros\storage_sco_xl_bayamon3_liq_macro"/>
+	<entry name="storage_sco_xl_bayamon3_sol_macro" 	value="extensions\bayamon_miner\assets\units\size_xl\macros\storage_sco_xl_bayamon3_sol_macro"/>
+	<entry name="storage_sco_xl_bayamon3_uni_macro" 	value="extensions\bayamon_miner\assets\units\size_xl\macros\storage_sco_xl_bayamon3_uni_macro"/>
+	<entry name="storage_sco_xl_bayamon3_cns_macro" 	value="extensions\bayamon_miner\assets\units\size_xl\macros\storage_sco_xl_bayamon3_cns_macro"/>
+
+	<entry name="bridge_sco_xl_macro" 					value="extensions\bayamon_miner\assets\props\bridge\macros\bridge_sco_xl"/>
+ 	<entry name="props_sco_xl_door_macro" 				value="extensions\bayamon_miner\assets\props\surfaceelements\macros\props_sco_xl_door"/> 
+	<entry name="props_sco_radar_macro" 				value="extensions\bayamon_miner\assets\props\surfaceelements\macros\props_sco_radar"/>
+
+</index>

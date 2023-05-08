@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.54) at 13.10.2018_15-47-08-->
+<macros>
+  <macro name="engine_sco_xl_bayamon3_macro" class="engine">
+    <component ref="engine_sco_xl_bayamon3" />
+    <properties>
+      <identification name="{9771315,12001}" basename="{9771315,12001}" shortname="{9771315,12003}" makerrace="argon" description="{9771315,12002}" mk="1" />
+      <boost duration="12" thrust="4" attack="0.25" release="1" />
+      <travel charge="28" thrust="40" attack="50" release="15" />
+      <thrust forward="2610" reverse="5528" />
+      <angular />
+      <hull max="79561" threshold="0.3" />
+      <sounds>
+        <enginedetail ref="enginedetail_ship_xl_01" />
+      </sounds>
+    </properties>
+  </macro>
+</macros>

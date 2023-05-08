@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<icons>
+ <icon name="upgrade_*" texture="extensions\bayamon_miner\assets\fx\gui\textures\upgrades\*.tga" height="256" width="256"></icon>
+</icons>

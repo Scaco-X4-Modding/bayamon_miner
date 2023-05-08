@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="//groups">
+    <!-- Terran & Pioneers: -->
+	  <group name="bay_miner_solid_xl">					<select macro="units_sco_xl_bayamon3_sol_macro"/>		</group>
+	  <group name="bay_miner_solid_mixed_xl">			<select macro="units_sco_xl_bayamon3_sol_macro"/>		</group>
+
+	  <group name="bay_miner_liquid_xl">				<select macro="units_sco_xl_bayamon3_liq_macro"/>		</group>
+	  <group name="bay_miner_liquid_mixed_xl">			<select macro="units_sco_xl_bayamon3_liq_macro"/>		</group>
+
+	  <group name="bay_miner_universal_xl">				<select macro="units_sco_xl_bayamon3_uni_macro"/>		</group>
+	  <group name="bay_miner_universal_mixed_xl">		<select macro="units_sco_xl_bayamon3_uni_macro"/>		</group>
+
+	  <group name="bay_trader_xl">						<select macro="units_sco_xl_bayamon3_trader_macro"/>	</group>
+
+	</add>
+</diff>

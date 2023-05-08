@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+<add sel="//cue[@name='iseeu0_cheat_set_ship']/actions">
+  <append_to_list name="global.$iseeu0_cheat_ship_list" exact="macro.units_sco_xl_bayamon3_sol_macro" />
+  <append_to_list name="global.$iseeu0_cheat_ship_list" exact="macro.units_sco_xl_bayamon3_liq_macro" />
+  <append_to_list name="global.$iseeu0_cheat_ship_list" exact="macro.units_sco_xl_bayamon3_uni_macro" />
+  <append_to_list name="global.$iseeu0_cheat_ship_list" exact="macro.units_sco_xl_bayamon3_trader_macro" />
+</add>
+</diff>

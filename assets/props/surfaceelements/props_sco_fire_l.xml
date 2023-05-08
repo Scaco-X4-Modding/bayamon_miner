@@ -1,0 +1,841 @@
+<?xml version="1.0"?>
+<components>
+	<component name="props_sco_fire_l" class="destructible">
+		<source geometry="extensions\bayamon_miner\assets\props\SurfaceElements\props_sco_fire_l_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="destructible">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="argon.ar_hulls_02"/>
+									<material id="3" ref="argon.ar_windows_02"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="argon.ar_hulls_02"/>
+									<material id="3" ref="argon.ar_windows_02"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="argon.ar_hulls_02"/>
+									<material id="3" ref="argon.ar_windows_02"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="67.83629" y="294.9936" z="70.39131"/>
+							<center x="3.320454" y="278.6504" z="-2.445908"/>
+						</size>
+						<sounds>
+							<sound name="XU SoundEmitter01" ref="props_sco_ar_chimney_l">
+								<offset>
+									<position x="-0.9055635" y="614.6775" z="0.7267151"/>
+								</offset>
+							</sound>
+							<sound name="XU SoundEmitter02" ref="props_sco_ar_chimney_s">
+								<offset>
+									<position x="28.93745" y="197.8534" z="-5.801044"/>
+								</offset>
+							</sound>
+							<sound name="XU SoundEmitter03" ref="props_sco_ar_chimney_s">
+								<offset>
+									<position x="-48.49844" y="174.9386" z="-3.266537"/>
+								</offset>
+							</sound>
+						</sounds>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part detail_l nocollision animation textureanimation  ">
+				<offset>
+					<position x="-33.90265" y="227.0246" z="-1.287159"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="500"/>
+				</animations>
+				<parts>
+					<part name="anim_fire_small01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.fire01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="11.58291" y="23.56205" z="9.369904"/>
+							<center x="-3.137589E-02" y="-0.915802" z="-0.7896798"/>
+						</size>
+						<size_raw>
+							<max x="11.61429" y="24.47784" z="10.15958"/>
+							<center x="-3.137589E-02" y="-0.915802" z="-0.7896793"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="500" value="8"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="500" value="1"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="500" value="6"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="500" value="-2"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="500" value="5"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+						<lights>
+							<omni name="XU Omni01" shadow="0" r="255" g="192" b="0" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="18" value="0"/>
+										<key frame="26" value="0.5"/>
+										<key frame="44" value="1.5"/>
+										<key frame="56" value="0.5"/>
+										<key frame="63" value="1"/>
+										<key frame="74" value="2"/>
+										<key frame="88" value="0.5"/>
+										<key frame="109" value="1"/>
+										<key frame="116" value="0"/>
+										<key frame="125" value="0.5"/>
+										<key frame="141" value="1"/>
+										<key frame="160" value="0.5"/>
+										<key frame="167" value="1.5"/>
+										<key frame="180" value="2"/>
+										<key frame="199" value="0.5"/>
+										<key frame="210" value="1"/>
+										<key frame="234" value="0"/>
+										<key frame="246" value="1.5"/>
+										<key frame="259" value="0.5"/>
+										<key frame="281" value="0"/>
+										<key frame="291" value="1.5"/>
+										<key frame="297" value="1"/>
+										<key frame="317" value="1.5"/>
+										<key frame="332" value="1"/>
+										<key frame="356" value="0.5"/>
+										<key frame="384" value="1"/>
+										<key frame="395" value="0"/>
+										<key frame="411" value="1"/>
+										<key frame="418" value="2"/>
+										<key frame="424" value="0.5"/>
+										<key frame="448" value="1"/>
+										<key frame="460" value="0"/>
+										<key frame="469" value="0.5"/>
+										<key frame="500" value="1"/>
+									</lightanimation>
+								</lightanimations>
+								<offset>
+									<position x="0.7906532" y="-1.509079" z="0.173787"/>
+								</offset>
+							</omni>
+						</lights>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection03" tags="part detail_l nocollision animation textureanimation  ">
+				<offset>
+					<position x="48.84867" y="126.9134" z="19.19008"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="500"/>
+				</animations>
+				<parts>
+					<part name="anim_fire_small02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.fire01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="10.89173" y="23.4699" z="8.084616"/>
+							<center x="7.961273E-03" y="7.629395E-06" z="-4.929352E-02"/>
+						</size>
+						<size_raw>
+							<max x="10.88377" y="23.46989" z="8.133908"/>
+							<center x="7.961273E-03" y="7.629395E-06" z="-4.929352E-02"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="500" value="5"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="500" value="3"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="500" value="5"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="500" value="-2"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="500" value="7"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+						<lights>
+							<omni name="XU Omni02" shadow="0" r="255" g="192" b="0" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="18" value="0"/>
+										<key frame="28" value="1.5"/>
+										<key frame="34" value="1"/>
+										<key frame="54" value="1.5"/>
+										<key frame="69" value="1"/>
+										<key frame="93" value="0.5"/>
+										<key frame="121" value="1"/>
+										<key frame="132" value="0"/>
+										<key frame="148" value="1"/>
+										<key frame="155" value="2"/>
+										<key frame="161" value="0.5"/>
+										<key frame="185" value="1"/>
+										<key frame="197" value="0"/>
+										<key frame="206" value="0.5"/>
+										<key frame="234" value="0"/>
+										<key frame="242" value="0.5"/>
+										<key frame="260" value="1.5"/>
+										<key frame="272" value="0.5"/>
+										<key frame="279" value="1"/>
+										<key frame="290" value="2"/>
+										<key frame="304" value="0.5"/>
+										<key frame="325" value="1"/>
+										<key frame="332" value="0"/>
+										<key frame="341" value="0.5"/>
+										<key frame="357" value="1"/>
+										<key frame="376" value="0.5"/>
+										<key frame="383" value="1.5"/>
+										<key frame="396" value="2"/>
+										<key frame="415" value="0.5"/>
+										<key frame="426" value="1"/>
+										<key frame="450" value="0"/>
+										<key frame="462" value="1.5"/>
+										<key frame="475" value="0.5"/>
+										<key frame="500" value="1"/>
+									</lightanimation>
+								</lightanimations>
+								<offset>
+									<position x="0.5868835" y="-1.966553" z="1.150621"/>
+								</offset>
+							</omni>
+						</lights>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection04" tags="part detail_l nocollision animation textureanimation  ">
+				<offset>
+					<position x="-62.81897" y="139.0906" z="1.436448"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="500"/>
+				</animations>
+				<parts>
+					<part name="anim_fire_small03">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.fire01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="10.73357" y="30.5091" z="15.35832"/>
+							<center x="-3.814697E-06" y="0" z="-3.576279E-06"/>
+						</size>
+						<size_raw>
+							<max x="10.73357" y="30.5091" z="15.35833"/>
+							<center x="0" y="0" z="-3.099442E-06"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="500" value="5"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="500" value="3"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="500" value="5"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="500" value="-2"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="500" value="7"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+						<lights>
+							<omni name="XU Omni03" shadow="0" r="255" g="192" b="0" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="24" value="0.5"/>
+										<key frame="52" value="1"/>
+										<key frame="63" value="0"/>
+										<key frame="79" value="1"/>
+										<key frame="86" value="2"/>
+										<key frame="92" value="0.5"/>
+										<key frame="116" value="1"/>
+										<key frame="128" value="0"/>
+										<key frame="137" value="0.5"/>
+										<key frame="164" value="1"/>
+										<key frame="182" value="0"/>
+										<key frame="190" value="0.5"/>
+										<key frame="208" value="1.5"/>
+										<key frame="220" value="0.5"/>
+										<key frame="227" value="1"/>
+										<key frame="238" value="2"/>
+										<key frame="252" value="0.5"/>
+										<key frame="273" value="1"/>
+										<key frame="280" value="0"/>
+										<key frame="289" value="0.5"/>
+										<key frame="305" value="1"/>
+										<key frame="324" value="0.5"/>
+										<key frame="331" value="1.5"/>
+										<key frame="344" value="2"/>
+										<key frame="363" value="0.5"/>
+										<key frame="374" value="1"/>
+										<key frame="398" value="0"/>
+										<key frame="410" value="1.5"/>
+										<key frame="423" value="0.5"/>
+										<key frame="445" value="0"/>
+										<key frame="455" value="1.5"/>
+										<key frame="461" value="1"/>
+										<key frame="481" value="1.5"/>
+										<key frame="500" value="1"/>
+									</lightanimation>
+								</lightanimations>
+								<offset>
+									<position x="0.8620033" y="-4.070038" z="-0.9648718"/>
+								</offset>
+							</omni>
+						</lights>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection05" tags="part detail_l nocollision animation textureanimation  ">
+				<offset>
+					<position x="-0.9055572" y="614.6775" z="0.7267036"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="2500"/>
+				</animations>
+				<parts>
+					<part name="anim_fire_large01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.fire01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="32.02332" y="90.9698" z="35.8334"/>
+							<center x="-0.3995032" y="30.42944" z="0.9903947"/>
+						</size>
+						<size_raw>
+							<max x="32.42282" y="60.54034" z="34.84301"/>
+							<center x="-0.399506" y="30.42944" z="0.9903927"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="2500" value="6"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="2500" value="1"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="2500" value="2"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="2500" value="-2"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="2500" value="6"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+						<lights>
+							<omni name="XU Omni06" shadow="0" r="255" g="192" b="0" range="240" shadowrange="240" lighteffect="1" trigger="1" intensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="90" value="0"/>
+										<key frame="130" value="0.5"/>
+										<key frame="220" value="1.5"/>
+										<key frame="280" value="0.5"/>
+										<key frame="315" value="1"/>
+										<key frame="370" value="2"/>
+										<key frame="439" value="0.5"/>
+										<key frame="544" value="1"/>
+										<key frame="579" value="0"/>
+										<key frame="624" value="0.5"/>
+										<key frame="704" value="1"/>
+										<key frame="800" value="0.5"/>
+										<key frame="835" value="1.5"/>
+										<key frame="900" value="2"/>
+										<key frame="995" value="0.5"/>
+										<key frame="1050" value="1"/>
+										<key frame="1170" value="0"/>
+										<key frame="1230" value="1.5"/>
+										<key frame="1294" value="0.5"/>
+										<key frame="1404" value="0"/>
+										<key frame="1454" value="1.5"/>
+										<key frame="1484" value="1"/>
+										<key frame="1584" value="1.5"/>
+										<key frame="1659" value="1"/>
+										<key frame="1779" value="0.5"/>
+										<key frame="1919" value="1"/>
+										<key frame="1974" value="0"/>
+										<key frame="2054" value="1"/>
+										<key frame="2089" value="2"/>
+										<key frame="2119" value="0.5"/>
+										<key frame="2238" value="1"/>
+										<key frame="2299" value="0"/>
+										<key frame="2344" value="0.5"/>
+										<key frame="2500" value="1"/>
+									</lightanimation>
+								</lightanimations>
+								<offset>
+									<position x="0.4767374" y="66.29639" z="-3.423665"/>
+								</offset>
+							</omni>
+						</lights>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection06" tags="part detail_l nocollision animation textureanimation  ">
+				<offset>
+					<position x="5.872201" y="693.1832" z="-2.691509"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="2500"/>
+				</animations>
+				<parts>
+					<part name="anim_fire_large02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.fire01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="45.50788" y="151.076" z="37.05267"/>
+							<center x="0.7224913" y="68.49164" z="1.452208E-02"/>
+						</size>
+						<size_raw>
+							<max x="44.78539" y="82.5844" z="37.03814"/>
+							<center x="0.7224855" y="68.49164" z="1.452398E-02"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="2500" value="6"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="2500" value="1"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="2500" value="2"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="2500" value="-2"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="2500" value="6"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection07" tags="part detail_l nocollision animation textureanimation  ">
+				<offset>
+					<position x="25.78925" y="200.7655" z="-28.56598"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="500"/>
+				</animations>
+				<parts>
+					<part name="anim_fire_small04">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.fire01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="8.057663" y="20.95017" z="13.58001"/>
+							<center x="0.7868652" y="-0.81427" z="-4.174423E-02"/>
+						</size>
+						<size_raw>
+							<max x="7.270795" y="21.76445" z="13.62175"/>
+							<center x="0.7868671" y="-0.81427" z="-4.174423E-02"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="500" value="8"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="500" value="1"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="500" value="6"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="500" value="-2"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="500" value="5"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+						<lights>
+							<omni name="XU Omni04" shadow="0" r="255" g="192" b="0" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="21" value="2"/>
+										<key frame="40" value="0.5"/>
+										<key frame="51" value="1"/>
+										<key frame="75" value="0"/>
+										<key frame="87" value="1.5"/>
+										<key frame="100" value="0.5"/>
+										<key frame="122" value="0"/>
+										<key frame="132" value="1.5"/>
+										<key frame="138" value="1"/>
+										<key frame="158" value="1.5"/>
+										<key frame="171" value="0.5"/>
+										<key frame="199" value="1"/>
+										<key frame="210" value="0"/>
+										<key frame="226" value="1"/>
+										<key frame="233" value="2"/>
+										<key frame="239" value="0.5"/>
+										<key frame="263" value="1"/>
+										<key frame="275" value="0"/>
+										<key frame="284" value="0.5"/>
+										<key frame="311" value="1"/>
+										<key frame="329" value="0"/>
+										<key frame="337" value="0.5"/>
+										<key frame="355" value="1.5"/>
+										<key frame="367" value="0.5"/>
+										<key frame="374" value="1"/>
+										<key frame="385" value="2"/>
+										<key frame="399" value="0.5"/>
+										<key frame="420" value="1"/>
+										<key frame="427" value="0"/>
+										<key frame="436" value="0.5"/>
+										<key frame="452" value="1"/>
+										<key frame="471" value="0.5"/>
+										<key frame="478" value="1.5"/>
+										<key frame="500" value="1"/>
+									</lightanimation>
+								</lightanimations>
+								<offset>
+									<position x="0.0552063" y="-0.6180725" z="1.222479"/>
+								</offset>
+							</omni>
+						</lights>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection08" tags="part detail_l nocollision animation textureanimation  ">
+				<offset>
+					<position x="24.60687" y="205.175" z="20.37255"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="500"/>
+				</animations>
+				<parts>
+					<part name="anim_fire_small05">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.fire01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="11.58291" y="23.56205" z="9.369904"/>
+							<center x="-3.137779E-02" y="-0.915802" z="-0.7896786"/>
+						</size>
+						<size_raw>
+							<max x="11.61429" y="24.47784" z="10.15958"/>
+							<center x="-3.137779E-02" y="-0.915802" z="-0.7896786"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="500" value="8"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="500" value="1"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="500" value="6"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="500" value="-2"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="500" value="5"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+						<lights>
+							<omni name="XU Omni05" shadow="0" r="255" g="192" b="0" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="1">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="1"/>
+										<key frame="13" value="0.5"/>
+										<key frame="41" value="1"/>
+										<key frame="52" value="0"/>
+										<key frame="68" value="1"/>
+										<key frame="75" value="2"/>
+										<key frame="81" value="0.5"/>
+										<key frame="105" value="1"/>
+										<key frame="117" value="0"/>
+										<key frame="126" value="0.5"/>
+										<key frame="153" value="1"/>
+										<key frame="171" value="0"/>
+										<key frame="179" value="0.5"/>
+										<key frame="197" value="1.5"/>
+										<key frame="212" value="2"/>
+										<key frame="231" value="0.5"/>
+										<key frame="242" value="1"/>
+										<key frame="266" value="0"/>
+										<key frame="278" value="1.5"/>
+										<key frame="291" value="0.5"/>
+										<key frame="308" value="0.5"/>
+										<key frame="315" value="1"/>
+										<key frame="326" value="2"/>
+										<key frame="340" value="0.5"/>
+										<key frame="361" value="1"/>
+										<key frame="368" value="0"/>
+										<key frame="377" value="0.5"/>
+										<key frame="393" value="1"/>
+										<key frame="412" value="0.5"/>
+										<key frame="419" value="1.5"/>
+										<key frame="444" value="0"/>
+										<key frame="454" value="1.5"/>
+										<key frame="460" value="1"/>
+										<key frame="480" value="1.5"/>
+										<key frame="500" value="1"/>
+									</lightanimation>
+								</lightanimations>
+								<offset>
+									<position x="1.066133" y="-0.7655029" z="0.1929016"/>
+								</offset>
+							</omni>
+						</lights>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection09" tags="part detail_l  ">
+				<offset/>
+				<parts>
+					<part name="detail_l_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="69.35022" y="97.73432" z="70.7533"/>
+							<center x="-1.806519" y="83.56377" z="2.083893"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection10" tags="part detail_m nocollision  ">
+				<offset/>
+				<parts>
+					<part name="detail_m_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_unique_04"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="46.11211" y="283.8548" z="29.45755"/>
+							<center x="-17.98175" y="283.3196" z="-3.842007"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection11" tags="part  ">
+				<offset>
+					<position x="0" y="0" z="182.093"/>
+				</offset>
+				<parts/>
+			</connection>
+			<connection name="Connection12" tags="part animation textureanimation nocollision detail_s  ">
+				<offset>
+					<position x="0.9749489" y="774.5923" z="-2.817609"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="40"/>
+				</animations>
+				<parts>
+					<part name="anim_heat_haze">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.distortion_master_geometry"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="86.30038" y="529.1481" z="86.30038"/>
+							<center x="0.1050835" y="-133.0203" z="-0.1998777"/>
+						</size>
+						<size_raw>
+							<max x="86.1953" y="662.1683" z="86.50025"/>
+							<center x="0.1050835" y="-133.0203" z="-0.1998739"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="40" value="-1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection13" hidden="true" tags="part triggerpart  ">
+				<offset>
+					<position x="0" y="728.0232" z="0.9080524"/>
+				</offset>
+				<parts>
+					<part name="damage_area">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="36.26326" y="162.7663" z="36.67971"/>
+							<center x="0" y="0" z="-1.907349E-06"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

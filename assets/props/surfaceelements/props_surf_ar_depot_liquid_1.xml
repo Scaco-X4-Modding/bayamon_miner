@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<components>
+	<component name="props_surf_ar_depot_liquid_1" class="destructible">
+		<source geometry="extensions\bayamon_miner\assets\props\SurfaceElements\props_surf_ar_depot_liquid_1_data"></source>
+		<layers>
+			<layer>
+				<waypoints></waypoints>
+				<lights></lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"></connection>
+			<connection name="position" tags="position" value="1" optional="1"></connection>
+			<connection name="space" tags="destructible">
+				<offset></offset>
+			</connection>
+			<connection name="Connection01" tags="part  ">
+				<offset></offset>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<size>
+							<max x="103.6999" y="42.85985" z="140.8127"></max>
+							<center x="0" y="0" z="0"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part nocollision detail_m  ">
+				<offset>
+					<position x="5.05616" y="0" z="-7.068878"></position>
+				</offset>
+				<parts>
+					<part name="detail_m_alpha">
+						<size>
+							<max x="104.4227" y="39.23047" z="140.0547"></max>
+							<center x="4.333351" y="-3.376492" z="-7.826866"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part  ">
+				<offset>
+					<position x="0" y="0" z="352.0317"></position>
+				</offset>
+				<parts></parts>
+			</connection>
+			<connection name="connection_component01" tags="component efficiency ">
+				<offset></offset>
+			</connection>
+		</connections>
+	</component>
+</components>

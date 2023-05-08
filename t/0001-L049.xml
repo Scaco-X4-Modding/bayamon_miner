@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <diff>
+  <add sel="/language">
+
+	<page id="9771315" title="bayamon miner" descr="Bayamon Bergbau-Träger" voice="yes">
+		<t id="10001">\033CBayamon\033X</t>
+		<t id="10002">Miner</t>
+		<!-- Vanilla Variationen	 <page id="20111" title="Object Variations" >
+										<t id="2001">Universal</t>
+										<t id="2101">\(Fest\)</t>
+										<t id="2201">\(Flüssig\)</t>
+										<t id="3001">XL</t>
+										<t id="3101">\(Mineralien\)</t>
+										<t id="3201">\(Gas\)</t>
+										<t id="3301">\(Treibstoff\)</t>
+										<t id="3401">\(Container\)</t>
+										<t id="3501">\(Kondensat\)</t>
+										<t id="4001">\(Tanker\)</t>						--> 
+
+		<!-- Ships -->
+		<t id="11971">\033CBayamon {20204,1901}\033X</t>	<!--Miner-->
+		<t id="11972">\033CBayamon {20204,4501}\033X</t>	<!--Trader-->
+		<t id="11973">Nach dem Fortgang der großen Krieges, begannen die Piraten Schiffsteile zu erbeuten und ganze Schiffe zu stehlen. Damit bauten sie neue, große (Kampf-)Schiffe. Deren eigentliche Hauptzwecke sind das Handeln, Stehlen, Kämpfen und Beschützen von Piratenbasen.\n\nDurch "gewisse Kooperationen" zwischen den Piraten und den Pionieren gelangten sowohl die Pläne, als auch die Erfahrungen mit den Konstrukteuren zum Bau solcher Schiffe an die Pioniere.\n\nDie haben das Schiff für ihre Zwecke modifiziert. Die wichtigste Neuerung ist die neu entwickelte KI. Aus der Not heraus zu wenig Personal stellen zu können, wird das Schiff standardmäßig durch eine äußerst intelligente KI gesteuert, die sämtliche Steuerungs-, Selbstdiagnose- sowie gute Verteidigungs-Skills mitbringt. Die KI ist selbstlernend. Der Rest wird ferngesteuert; eine Kommandobrücke gibt es als Backup - für den Notfall. Ansonsten ist nur noch eine kleine Rumpfmannschaft zur Überwachung der KI und zur operativen Wartung an Bord. So wurde daraus schlussendlich ein gewaltiges Bergbauschiff, das auf Grund seiner enormen Größe gewaltige Mengen aufnehmen und transportieren kann und kaum Personalkosten verursacht.\n\nZugunsten von Frachtkapazität und Maschinen zur Verarbeitung und Kompression von Erzen und Gasen wurde die Lebenserhaltung auf das Nötigste reduziert sowie die Energie ganzer (überflüssiger) Großgeschütz-Batterien umgeleitet, die Waffen entfernt. Doch Vorsicht! Am Reaktor und den Antrieben wurde aus gutem Grund nichts geändert. So ist dieses Schiff ob seiner Größe recht schnell und mit noch so einigen Offensiv- bzw. Großschiffwaffen und seinen vielen Defensivwaffen alles andere als wehrlos (nicht zuletzt durch die leistungsfähige Non-Lantenz-KI!!). Auch die Reichweite der Aufklärung (Scanner) konnte gesteigert werden. Somit kann es, wenngleich die Schiffstechnik an sich in die Jahre gekommen ist, tief im Raum autark und sicher operieren.</t>
+		<t id="11974">{20111,3101}</t>
+		<t id="11975">{20111,3201}</t>
+		<t id="11976">{20111,2001}</t>
+
+		<!-- Surface Elements -->
+		<t id="12001">Antimaterieantrieb</t>
+		<t id="12002">Lange Zeit war die Verwendung von M/AM-Antrieben auf sehr kleine Schiffe wie Nachrichtendrohnen (die zu einer Klasse von selbstfahrenden Objekten namens "Pen Craft" gehören) beschränkt. Der Grund dafür war die geringe Verfügbarkeit von Antimaterie. Erst nachdem Schiffe vom längst vergessenen Planeten Erde bewiesen hatten, dass größere M/AM-Antriebe tragfähig waren, begann die Forschung an der Massenproduktion von Antimaterie. Der erste, der eine H zu -H Verarbeitungsanlage auf den Markt brachte, war der Erfinder Ser-Alman Jonferson.\n\nHeute sind viele mittelgroße und große Schiffe mit M/AM-Antrieben ausgestattet, die die Reisen zwischen den Planeten im Vergleich zu z. B. gerichteten Fusionsantriebssystemen erheblich verkürzen.\n\nDer M/AM-Antrieb gilt als konventioneller Reaktionsantrieb.</t>
+		<t id="12003">Antimaterieantrieb Mk1</t>
+
+		<!-- ISG (VRO-exclusive)-->
+		<t id="14001">\033CISG XL - Hüllenpolarisation\033X</t>
+		<t id="14002"> ist nun verfügbar. Rüste dein Schiff gleich damit aus.</t>
+		<t id="14003">{20111,3001} {9771315,10002}</t>
+
+		<!-- Jobs -->
+		<t id="90001">{20204,1901} {20204,5001}</t>
+		<!-- Vanilla Jobs	   <page id="20204" title="Jobs" descr="Names and descriptions of ship jobs" voice="yes">
+										<t id="101">Energiefrachter</t>
+										<t id="201">Energiehändler</t>
+										<t id="301">High-Tech-Frachter</t>
+										<t id="401">High-Tech-Händler</t>
+										<t id="501">Zwischenproduktefrachter</t>
+										<t id="601">Zwischenproduktehändler</t>
+										<t id="701">Hüllentechnologiefrachter</t>
+										<t id="801">Hüllentechnologiehändler</t>
+										<t id="901">Waffenfrachter</t>
+										<t id="1001">Waffenhändler</t>
+										<t id="1101">Pharmazieproduktefrachter</t>
+										<t id="1201">Pharmazieproduktehändler</t>
+										<t id="1301">Agrikulturfrachter</t>
+										<t id="1401">Agrikulturhändler</t>
+										<t id="1501">Wasserfrachter</t>
+										<t id="1601">Wasserhändler</t>
+										<t id="1701">Nahrungsfrachter</t>
+										<t id="1801">Nahrungshändler</t>
+										<t id="1901">Bergbauschiff</t>
+										<t id="2001">Eisschürfer</t>
+										<t id="2101">Wasserstoffsammler</t>
+										<t id="2201">Heliumsammler</t>
+										<t id="2301">Methansammler</t>
+										<t id="2601">Eskortjäger</t>
+										<t id="2701">Jägerkonvoi</t>
+										<t id="2801">Aufklärungsjäger</t>
+										<t id="2901">Jägerstaffel</t>
+										<t id="3201">Patrouillenträger</t>
+										<t id="3301">Patrouillenzerstörer</t>
+										<t id="3401">Überfallgruppe</t>
+										<t id="3501">Überfallkommando</t>
+										<t id="3801">Branch-9-Zerstörer</t>
+										<t id="3901">Aufkommende Einsamkeit</t>
+										<t id="4001">Sicheldiener</t>
+										<t id="4101">Plünderer</t>
+										<t id="4201">Marodeur</t>
+										<t id="4301">Freibeuter</t>
+										<t id="4401">Architekturfrachter</t>
+										<t id="4501">Universalfrachter</t>
+										<t id="4601">Energieimporteur</t>
+										<t id="4701">Energieexporteur</t>
+										<t id="4801">Energieverteilungseinheit</t>
+										<t id="5001">Drohnenträger</t>
+										<t id="5101">Konstruktionschiff</t>
+										<t id="5201">Patrouille</t>
+										<t id="5301">Korsar</t>
+										<t id="5401">Plünderer</t>
+										<t id="5501">Nachschubschiff</t>
+										<t id="5601">Mineralienschürfer</t>
+										<t id="5701">Gassammler</t>
+										<t id="5801">Erzschürfer</t>
+										<t id="5901">Siliziumschürfer</t>
+										<t id="6001">Nividiumschürfer</t>
+										<t id="6101">Polizei</t>
+										<t id="6201">Flaggschiff</t>
+										<t id="6301">Expeditionskorps</t>
+										<t id="6401">Ehrenwache</t>
+										<t id="6501">Fanatiker</t>
+										<t id="6601">Sklavenhändler</t>
+										<t id="6701">Entführtes Schiff</t>
+										<t id="6801">Sargschiff</t>
+										<t id="6901">Bestattungsschiff</t>
+										<t id="7001">Vertragsarbeiter</t>
+										<t id="7101">Entdecker</t>
+										<t id="7201">Sachverständiger</t>
+										<t id="7301">Pfadfinder</t>
+										<t id="7401">Sucher</t>
+										<t id="7501">Wegbereiter</t>
+										<t id="7601">Wandersmann</t>
+										<t id="7701">Vagabund</t>
+										<t id="7801">Beobachter</t>
+										<t id="7901">Wanderer</t>
+										<t id="8001">Passagier</t>
+										<t id="8101">Nomade</t>
+										<t id="8201">Freibeuter</t>
+										<t id="10000">Handel</t>
+										<t id="10001">Taxidienst</t>
+										<t id="10002">Reparaturdienst</t>
+										<t id="10003">Mediendienst</t>
+										<t id="10004">Reinigungsdienst</t>
+										<t id="10005">Entsorgungsdienst</t>
+										<t id="10006">Schrotthändler</t>
+										<t id="10007">Schrottrecycling</t>
+										<t id="10008">Recyclingschiff</t>
+										<t id="10009">Lieferbote</t>
+										<t id="10010">Textilientransporter</t>
+										<t id="10011">Medikamentenlieferdienst</t>
+										<t id="10012">Schlüsseldienst</t>
+										<t id="10013">Paketlieferdienst</t>
+										<t id="10014">Kreuzfahrt</t>
+										<t id="10015">Notarzt</t>
+										<t id="10016">Gourmetlieferdienst</t>
+										<t id="10017">Frischkostlieferant</t>
+										<t id="10018">Getreidetransporter</t>
+										<t id="10019">Flugschule</t>
+										<t id="10020">Hospitalschiff</t>
+										<t id="10021">Waffenhändler</t>
+										<t id="10022">Abenteuertour</t>
+										<t id="10023">Bergungsmannschaft</t>
+										<t id="10024">Wartungsschiff</t>
+										<t id="10025">Forschungsschiff</t>
+										<t id="10026">Archäologe</t>
+										<t id="10027">Vertreter</t>
+										<t id="10028">Innenausstatter</t>
+										<t id="10029">Wasserreinigung</t>
+										<t id="10030">Personenfähre</t>
+										<t id="10031">Tankreinigung</t>
+										<t id="10032">Werbeagentur</t>
+										<t id="10033">Hospitaldienst</t>
+										<t id="10034">Bestattungsdirektorium</t>
+										<t id="10035">Raumfliegenjäger</t>
+										<t id="10036">Raumfliegenschützer</t>
+										<t id="10037">Schädlingsbekämpfung</t>
+										<t id="10038">Passagierlinienschiff</t>
+										<t id="10039">Tech-Nothilfe</t>
+										<t id="10040">Kartografierdienst</t>
+										<t id="10041">Kartografierer</t>
+										<t id="10042">Systemanalyst</t>
+										<t id="10043">Schiffsmechaniker</t>
+										<t id="10044">Kopfgeldjäger</t>
+										<t id="10045">Minenräumdienst</t>
+										<t id="10046">Katastrophenhilfe</t>
+										<t id="10047">Nachrichtenagentur</t>
+										<t id="10048">Werbung</t>
+										<t id="10049">Prospektor</t>
+										<t id="10050">Koloniepolizei</t>
+										<t id="10060">Interventionskorps</t>			-->
+	</page>
+  </add>
+</diff>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ?xml-stylesheet href="index.xsl" type="text/xsl" ? -->
+<index>
+	
+	<entry name="units_sco_xl_bayamon3"					value="extensions\bayamon_miner\assets\units\size_xl\units_sco_xl_bayamon3"/>
+
+
+
+
+	<entry name="engine_sco_xl_bayamon3" 				value="extensions\bayamon_miner\assets\props\engines\engine_sco_xl_bayamon3"/>
+
+	<entry name="props_sco_energy" 						value="extensions\bayamon_miner\assets\props\surfaceelements\props_sco_energy"/>
+	<entry name="props_sco_smoke" 						value="extensions\bayamon_miner\assets\props\surfaceelements\props_sco_smoke"/>
+	<entry name="props_sco_smoke2" 						value="extensions\bayamon_miner\assets\props\surfaceelements\props_sco_smoke2"/>
+	<entry name="props_sco_fire_l" 						value="extensions\bayamon_miner\assets\props\surfaceelements\props_sco_fire_l"/>
+	<entry name="props_surf_ar_depot_liquid_1" 			value="extensions\bayamon_miner\assets\props\surfaceelements\props_surf_ar_depot_liquid_1"/>
+
+	<entry name="bridge_sco_xl" 						value="extensions\bayamon_miner\assets\props\bridge\bridge_sco_xl"/>
+	<entry name="props_sco_xl_door" 					value="extensions\bayamon_miner\assets\props\surfaceelements\props_sco_xl_door"/>
+	<entry name="props_sco_radar" 						value="extensions\bayamon_miner\assets\props\surfaceelements\props_sco_radar"/>
+
+</index>

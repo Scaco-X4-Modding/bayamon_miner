@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <diff>
+  <add sel="/language">
+
+	<page id="9771315" title="bayamon miner" descr="Bayamon Bergbau-Träger" voice="yes">
+		<t id="10001">\033CBayamon\033X</t>
+		<t id="10002">Miner</t>
+
+		<!-- Ships -->
+		<t id="11971">\033CBayamon {20204,1901}\033X</t>	<!--Miner-->
+		<t id="11972">\033CBayamon {20204,4501}\033X</t>	<!--Trader-->
+		<t id="11973">Nach dem Fortgang der großen Krieges, begannen die Piraten Schiffsteile zu erbeuten und ganze Schiffe zu stehlen. Damit bauten sie neue, große (Kampf-)Schiffe. Deren eigentliche Hauptzwecke sind das Handeln, Stehlen, Kämpfen und Beschützen von Piratenbasen.\n\nDurch "gewisse Kooperationen" zwischen den Piraten und den Pionieren gelangten sowohl die Pläne, als auch die Erfahrungen mit den Konstrukteuren zum Bau solcher Schiffe an die Pioniere.\n\nDie haben das Schiff für ihre Zwecke modifiziert. Die wichtigste Neuerung ist die neu entwickelte KI. Aus der Not heraus zu wenig Personal stellen zu können, wird das Schiff standardmäßig durch eine äußerst intelligente KI gesteuert, die sämtliche Steuerungs-, Selbstdiagnose- sowie gute Verteidigungs-Skills mitbringt. Die KI ist selbstlernend. Der Rest wird ferngesteuert; eine Kommandobrücke gibt es als Backup - für den Notfall. Ansonsten ist nur noch eine kleine Rumpfmannschaft zur Überwachung der KI und zur operativen Wartung an Bord. So wurde daraus schlussendlich ein gewaltiges Bergbauschiff, das auf Grund seiner enormen Größe gewaltige Mengen aufnehmen und transportieren kann und kaum Personalkosten verursacht.\n\nZugunsten von Frachtkapazität und Maschinen zur Verarbeitung und Kompression von Erzen und Gasen wurde die Lebenserhaltung auf das Nötigste reduziert sowie die Energie ganzer (überflüssiger) Großgeschütz-Batterien umgeleitet, die Waffen entfernt. Doch Vorsicht! Am Reaktor und den Antrieben wurde aus gutem Grund nichts geändert. So ist dieses Schiff ob seiner Größe recht schnell und mit noch so einigen Offensiv- bzw. Großschiffwaffen und seinen vielen Defensivwaffen alles andere als wehrlos (nicht zuletzt durch die leistungsfähige Non-Lantenz-KI!!). Auch die Reichweite der Aufklärung (Scanner) konnte gesteigert werden. Somit kann es, wenngleich die Schiffstechnik an sich in die Jahre gekommen ist, tief im Raum autark und sicher operieren.</t>
+		<t id="11974">{20111,3101}</t>
+		<t id="11975">{20111,3201}</t>
+		<t id="11976">{20111,2001}</t>
+
+		<!-- Surface Elements -->
+		<t id="12001">Antimaterieantrieb</t>
+		<t id="12002">Lange Zeit war die Verwendung von M/AM-Antrieben auf sehr kleine Schiffe wie Nachrichtendrohnen (die zu einer Klasse von selbstfahrenden Objekten namens "Pen Craft" gehören) beschränkt. Der Grund dafür war die geringe Verfügbarkeit von Antimaterie. Erst nachdem Schiffe vom längst vergessenen Planeten Erde bewiesen hatten, dass größere M/AM-Antriebe tragfähig waren, begann die Forschung an der Massenproduktion von Antimaterie. Der erste, der eine H zu -H Verarbeitungsanlage auf den Markt brachte, war der Erfinder Ser-Alman Jonferson.\n\nHeute sind viele mittelgroße und große Schiffe mit M/AM-Antrieben ausgestattet, die die Reisen zwischen den Planeten im Vergleich zu z. B. gerichteten Fusionsantriebssystemen erheblich verkürzen.\n\nDer M/AM-Antrieb gilt als konventioneller Reaktionsantrieb.</t>
+		<t id="12003">Antimaterieantrieb Mk1</t>
+
+		<!-- ISG (VRO-exclusive)-->
+		<t id="14001">\033CISG XL - Hüllenpolarisation\033X</t>
+		<t id="14002"> ist nun verfügbar. Rüste dein Schiff gleich damit aus.</t>
+		<t id="14003">{20111,3001} {9771315,10002}</t>
+
+		<!-- Jobs -->
+		<t id="90001">{20204,1901} {20204,5001}</t>
+	</page>
+  </add>
+</diff>

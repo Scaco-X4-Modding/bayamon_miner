@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="ws_2647877221" name="Bayamon Bergbau-Träger [6.0 in progress]" description="VRO: https://steamcommunity.com/sharedfiles/filedetails/?id=2717276439&#13;&#10;&#13;&#10;Besten Dank und Credits an sco für den eigentlichen Bayamon-Träger Mod. Ich habe auf dieser Basis für mich ein riesiges Bergbauschiff gemacht. Die Optik ist ja geraduzu perfekt. Sollte bei den Pioneren erhältlich sein.&#13;&#10;&#13;&#10;iseeu0_cheat Erweiterung inklusive&#13;&#10;&#13;&#10;&#13;&#10;My mods (free to use by credits):&#13;&#10;=================================&#13;&#10;https://steamcommunity.com/workshop/filedetails/?id=2719512362 Mod-Sammlung&#13;&#10;Credits to all who codevelope and support my work. Thank you!" author="Prior Micha" version="301" date="2023-02-04" save="0" lastupdate="1675516701">
+  <text language="7" name="bayamon_miner" description="Баямон шахте." author="Prior Micha; RUS translation @ aladinaleks"></text>
+  <text language="44" name="bayamon_miner" description="Bayamon Mining-Carrier" author="Prior Micha"></text>
+  <text language="49" name="bayamon_miner" description="Bayamon Bergbau-Träger" author="Prior Micha"></text>
+</content>

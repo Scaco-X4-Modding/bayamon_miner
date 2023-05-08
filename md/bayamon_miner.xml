@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="bayamon_miner_update" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+
+		<cue name="bayamon_miner_update">
+			<conditions>
+				<check_any>
+					<event_cue_signalled cue="md.Setup.GameStart" />
+					<event_player_created/>
+				</check_any>
+			</conditions>
+			<actions>
+				<set_value name="$versionNumber" exact="1"/>
+				<do_if value="event.param">
+					<show_help duration="7" custom="'{9771315,11971} update to version %1 complete.'.[$versionNumber]"/>
+				</do_if>
+				<do_else>
+					<show_help duration="10" custom="'{9771315,11971} installiert.'"/>
+				</do_else>
+			</actions>
+		</cue>
+
+		<library name="Bayamon">
+		  <cues>
+			<library name="Bayamon_UnlockBlueprints">
+			  <actions>
+				<set_value name="$bPBayamonWares" exact="[
+				  ware.units_sco_xl_bayamon3_sol,
+				  ware.units_sco_xl_bayamon3_liq,
+				  ware.units_sco_xl_bayamon3_uni,
+				  ware.units_sco_xl_bayamon3_trader,
+				  ware.engine_sco_xl_bayamon3_01
+				]"/>
+				<add_blueprints wares="$bPBayamonWares" />
+				<remove_value name="$bPBayamonWares"/>
+			  </actions>
+			</library>
+		  </cues>
+		</library>
+		
+	</cues>
+</mdscript>

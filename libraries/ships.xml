@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff> 
+	<add sel="//ships">
+    <!-- Terran & Pioneers: -->
+	  <ship id="bay_terran_miner_solid_xl" 			group="bay_miner_solid_xl">
+		<category tags="[miner, solid, mission]" faction="[terran, pioneers]" size="ship_xl"/>
+		<pilot>
+		  <select faction="yaki" tags="traderpilot"/>
+		</pilot>
+		<basket basket="bayamon_miner_all_solid"/>
+		<drop ref="ship_large_civilian"/>
+		<people ref="pioneers_elite_freighter_crew"/>
+	  </ship>
+
+	  <ship id="bay_terran_miner_solid_mixed_xl"  		group="bay_miner_solid_mixed_xl">
+		<category tags="[miner, solid, mixed]" faction="[terran, pioneers]"/>
+		<owner exact="terran" overridenpc="true"/>
+		<pilot>
+		  <select faction="yaki" tags="traderpilot"/>
+		</pilot>
+		<basket basket="bayamon_miner_all_solid"/>
+		<drop ref="ship_large_civilian"/>
+		<people ref="pioneers_elite_freighter_crew"/>
+	  </ship>
+
+	  <ship id="bay_terran_miner_liquid_xl" 		group="bay_miner_liquid_xl">
+		<category tags="[miner, liquid, mission]" faction="[terran, pioneers]" size="ship_xl"/>
+		<pilot>
+		  <select faction="yaki" tags="traderpilot"/>
+		</pilot>
+		<basket basket="bayamon_miner_all_liquid"/>
+		<drop ref="ship_large_civilian"/>
+		<people ref="pioneers_elite_freighter_crew"/>
+	  </ship>
+
+	  <ship id="bay_terran_miner_liquid_mixed_xl"  	group="bay_miner_liquid_mixed_xl">
+		<category tags="[miner, liquid, mixed]" faction="[terran, pioneers]"/>
+		<owner exact="terran" overridenpc="true"/>
+		<pilot>
+		  <select faction="yaki" tags="traderpilot"/>
+		</pilot>
+		<basket basket="bayamon_miner_all_liquid"/>
+		<drop ref="ship_large_civilian"/>
+		<people ref="pioneers_elite_freighter_crew"/>
+	  </ship>
+
+	  <ship id="bay_terran_miner_universal_xl" 		group="bay_miner_universal_xl">
+		<category tags="[miner, universal, mission]" faction="[terran, pioneers]" size="ship_xl"/>
+		<pilot>
+		  <select faction="yaki" tags="traderpilot"/>
+		</pilot>
+		<basket basket="bayamon_miner_all_mining"/>
+		<drop ref="ship_large_civilian"/>
+		<people ref="pioneers_elite_freighter_crew"/>
+	  </ship>
+
+	  <ship id="bay_terran_miner_universal_mixed_xl"  	group="bay_miner_universal_mixed_xl">
+		<category tags="[miner, universal, mixed]" faction="[terran, pioneers]"/>
+		<owner exact="terran" overridenpc="true"/>
+		<pilot>
+		  <select faction="yaki" tags="traderpilot"/>
+		</pilot>
+		<basket basket="bayamon_miner_all_mining"/>
+		<drop ref="ship_large_civilian"/>
+		<people ref="pioneers_elite_freighter_crew"/>
+	  </ship>
+
+
+	  <ship id="bay_terran_trader"  	group="bay_trader_xl">
+		<category tags="[trader, container, universal, liquid, solid, mixed, mission]" faction="[terran, pioneers]" size="ship_xl"/>
+		<owner exact="terran" overridenpc="true"/>
+		<pilot>
+		  <select faction="yaki" tags="traderpilot"/>
+		</pilot>
+		<basket basket="bayamon_trader_all_wares"/>
+		<drop ref="ship_large_civilian"/>
+		<people ref="pioneers_elite_freighter_crew"/>
+	  </ship>
+
+	</add>
+</diff>

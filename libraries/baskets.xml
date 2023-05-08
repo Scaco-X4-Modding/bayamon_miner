@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+
+  <add sel="/baskets">
+    <basket id="bayamon_miner_all_solid">
+      <wares>
+		  <ware ware="ice" />
+		  <ware ware="nividium" />
+		  <ware ware="ore" />
+		  <ware ware="silicon" />
+      </wares>
+    </basket>
+
+    <basket id="bayamon_miner_all_liquid">
+      <wares>
+		  <ware ware="helium" />
+		  <ware ware="hydrogen" />
+		  <ware ware="methane" />
+      </wares>
+    </basket>
+
+    <basket id="bayamon_miner_all_mining">
+      <wares>
+		  <ware ware="ice" />
+		  <ware ware="nividium" />
+		  <ware ware="ore" />
+		  <ware ware="silicon" />
+		  <ware ware="helium" />
+		  <ware ware="hydrogen" />
+		  <ware ware="methane" />
+      </wares>
+    </basket>
+
+    <basket id="bayamon_trader_all_wares">
+      <wares>
+	  <!--vanilla-->
+		  <ware ware="advancedelectronics" />
+		  <ware ware="antimattercells" />
+		  <ware ware="antimatterconverters" />
+		  <ware ware="advancedcomposites" />
+		  <ware ware="claytronics" />
+		  <ware ware="dronecomponents" />
+		  <ware ware="energycells" />
+		  <ware ware="engineparts" />
+		  <ware ware="fieldcoils" />
+		  <ware ware="foodrations" />
+		  <ware ware="graphene" />
+		  <ware ware="helium" />
+		  <ware ware="hullparts" />
+		  <ware ware="hydrogen" />
+		  <ware ware="ice" />
+		  <ware ware="majadust" />
+		  <ware ware="majasnails" />
+		  <ware ware="meat" />
+		  <ware ware="medicalsupplies" />
+		  <ware ware="methane" />
+		  <ware ware="microchips" />
+		  <ware ware="missilecomponents" />
+		  <ware ware="nividium" />
+		  <ware ware="nostropoil" />
+		  <ware ware="ore" />
+		  <ware ware="plasmaconductors" />
+		  <ware ware="quantumtubes" />
+		  <ware ware="refinedmetals" />
+		  <ware ware="scanningarrays" />
+		  <ware ware="shieldcomponents" />
+		  <ware ware="silicon" />
+		  <ware ware="siliconwafers" />
+		  <ware ware="smartchips" />
+		  <ware ware="sojabeans" />
+		  <ware ware="sojahusk" />
+		  <ware ware="spacefuel" />
+		  <ware ware="spaceweed" />
+		  <ware ware="spices" />
+		  <ware ware="sunriseflowers" />
+		  <ware ware="superfluidcoolant" />
+		  <ware ware="swampplant" />
+		  <ware ware="teladianium" />
+		  <ware ware="turretcomponents" />
+		  <ware ware="water" />
+		  <ware ware="weaponcomponents" />
+		  <ware ware="wheat" />
+	  <!--DLC split-->
+		  <ware ware="cheltmeat" />
+		  <ware ware="scruffinfruits" />
+	  <!--DLC terran-->
+		  <ware ware="computronicsubstrate" />
+		  <ware ware="metallicmicrolattice" />
+		  <ware ware="siliconcarbide" />
+		  <ware ware="proteinpaste" />
+		  <ware ware="terranmre" />
+		  <ware ware="stimulants" /> 
+	  <!--DLC pirates-->
+		  <ware ware="condensate" />
+      </wares>
+    </basket>
+  </add>
+
+</diff>

@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<components>
+	<component name="props_sco_smoke2" class="destructible">
+		<source geometry="extensions\bayamon_miner\assets\props\SurfaceElements\props_sco_smoke2_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+		<!--			<box name="XU BoxLight19" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="1">
+						<size x="50" y="15" z="15"/>
+						<lightanimations/>
+						<offset>
+							<position x="34.12513" y="14.94812" z="-42.64845"/>
+							<quaternion qx="-8.774063E-02" qy="-0.6664565" qz="-9.663677E-02" qw="-0.7340291"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight01" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="2">
+						<size x="30" y="15" z="15"/>
+						<lightanimations/>
+						<offset>
+							<position x="-109.7561" y="0.3956749" z="52.27845"/>
+							<quaternion qx="-0" qy="0.4759687" qz="-0" qw="-0.8794622"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight02" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="2">
+						<size x="20" y="10" z="10"/>
+						<lightanimations/>
+						<offset>
+							<position x="-121.6104" y="4.232578" z="33.96267"/>
+							<quaternion qx="-0" qy="9.150994E-02" qz="-0" qw="-0.9958042"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight03" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="2">
+						<size x="30" y="15" z="15"/>
+						<lightanimations/>
+						<offset>
+							<position x="109.756" y="0.3956749" z="52.27845"/>
+							<quaternion qx="-0" qy="-0.4759697" qz="-0" qw="-0.8794616"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight04" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="2">
+						<size x="20" y="10" z="10"/>
+						<lightanimations/>
+						<offset>
+							<position x="121.61" y="4.232578" z="33.96267"/>
+							<quaternion qx="-0" qy="-9.151036E-02" qz="-0" qw="-0.9958041"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight20" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="1">
+						<size x="50" y="15" z="15"/>
+						<lightanimations/>
+						<offset>
+							<position x="50.52276" y="14.94812" z="-37.61281"/>
+							<quaternion qx="-6.662127E-02" qy="-0.5060388" qz="-0.1122439" qw="-0.8525771"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight06" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="2">
+						<size x="30" y="15" z="15"/>
+						<lightanimations/>
+						<offset>
+							<position x="109.756" y="0.3956749" z="-52.278"/>
+							<quaternion qx="-0" qy="0.4759697" qz="-0" qw="-0.8794616"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight07" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="2">
+						<size x="20" y="10" z="10"/>
+						<lightanimations/>
+						<offset>
+							<position x="-121.61" y="4.232578" z="-33.962"/>
+							<quaternion qx="-0" qy="-9.151036E-02" qz="-0" qw="-0.9958041"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight08" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="2">
+						<size x="30" y="15" z="15"/>
+						<lightanimations/>
+						<offset>
+							<position x="-109.7561" y="0.3956749" z="-52.278"/>
+							<quaternion qx="-0" qy="-0.4759697" qz="-0" qw="-0.8794616"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight09" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="1">
+						<size x="50" y="15" z="15"/>
+						<lightanimations/>
+						<offset>
+							<position x="-34.38332" y="14.94812" z="42.62269"/>
+							<quaternion qx="9.690198E-02" qy="0.7360437" qz="-8.744761E-02" qw="-0.6642308"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight10" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="1">
+						<size x="50" y="15" z="15"/>
+						<lightanimations/>
+						<offset>
+							<position x="-17.47322" y="14.94812" z="40.97544"/>
+							<quaternion qx="7.764071E-02" qy="0.5897399" qz="-0.1049238" qw="-0.7969754"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight11" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="1">
+						<size x="50" y="15" z="15"/>
+						<lightanimations/>
+						<offset>
+							<position x="-50.13205" y="14.94812" z="37.82338"/>
+							<quaternion qx="0.1118973" qy="0.8499445" qz="-6.720173E-02" qw="-0.5104482"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight12" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="1">
+						<size x="50" y="15" z="15"/>
+						<lightanimations/>
+						<offset>
+							<position x="-50.16908" y="14.94812" z="-37.80365"/>
+							<quaternion qx="-0.1119302" qy="-0.8501943" qz="-6.714696E-02" qw="-0.5100319"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight13" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="1">
+						<size x="50" y="15" z="15"/>
+						<lightanimations/>
+						<offset>
+							<position x="-34.46441" y="14.94812" z="-42.61427"/>
+							<quaternion qx="-9.698512E-02" qy="-0.7366753" qz="-8.735541E-02" qw="-0.6635303"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight14" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="1">
+						<size x="50" y="15" z="15"/>
+						<lightanimations/>
+						<offset>
+							<position x="-17.71192" y="14.94812" z="-41.04766"/>
+							<quaternion qx="-7.794574E-02" qy="-0.5920568" qz="-0.1046974" qw="-0.7952558"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight15" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="1">
+						<size x="50" y="15" z="15"/>
+						<lightanimations/>
+						<offset>
+							<position x="50.20351" y="14.94812" z="37.78525"/>
+							<quaternion qx="6.709594E-02" qy="0.5096443" qz="-0.1119608" qw="-0.8504267"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight16" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="1">
+						<size x="50" y="15" z="15"/>
+						<lightanimations/>
+						<offset>
+							<position x="34.2605" y="14.94812" z="42.63514"/>
+							<quaternion qx="8.758712E-02" qy="0.6652905" qz="-9.677589E-02" qw="-0.735086"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight17" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="1">
+						<size x="50" y="15" z="15"/>
+						<lightanimations/>
+						<offset>
+							<position x="17.5172" y="14.94812" z="40.98887"/>
+							<quaternion qx="0.1048821" qy="0.7966588" qz="-7.769701E-02" qw="-0.5901676"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight18" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="1">
+						<size x="50" y="15" z="15"/>
+						<lightanimations/>
+						<offset>
+							<position x="17.66959" y="14.94812" z="-41.03497"/>
+							<quaternion qx="-0.1047375" qy="-0.7955608" qz="-7.789177E-02" qw="-0.5916468"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight05" shadow="0" r="255" g="255" b="223" lighteffect="1" trigger="1" intensity="2">
+						<size x="20" y="10" z="10"/>
+						<lightanimations/>
+						<offset>
+							<position x="121.61" y="4.232578" z="-33.962"/>
+							<quaternion qx="-0" qy="9.151036E-02" qz="-0" qw="-0.9958041"/>
+						</offset>
+					</box> -->
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="destructible">
+				<offset/>
+			</connection>
+			<connection name="Connection06" tags="part animation detail_l  ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="1000"/>
+				</animations>
+				<parts>
+					<part name="anim_wheel_small01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01"/>
+									<material id="2" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="7.081207" y="5.5138" z="7.081209"/>
+							<center x="0" y="6.423902" z="1.533508E-03"/>
+						</size>
+						<sounds>
+							<sound name="XU SoundEmitter01" ref="anim_ventilator">
+								<offset>
+									<position x="0" y="6.487007" z="0"/>
+								</offset>
+							</sound>
+						</sounds>
+						<size_raw>
+							<max x="7.081207" y="0.9101024" z="7.079677"/>
+							<center x="0" y="6.423902" z="1.533508E-03"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>			
+	<!--		<connection name="Connection11" tags="part nocollision  ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+				<parts>
+					<part name="fx_lightcones">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.decoflares"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="62.51086" y="6.167485" z="61.61265"/>
+							<center x="0" y="14.60441" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection> -->
+			<connection name="Connection12" tags="part animation textureanimation  ">
+				<offset>
+					<position x="-12" y="110" z="0"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="1000"/>
+				</animations>
+				<parts>
+					<part name="anim_smoke01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.smoke01_near"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="128.9874" y="129.0989" z="90.86583"/>
+							<center x="3.398743" y="7.629395E-06" z="-1.907349E-06"/>
+						</size>
+						<size_raw>
+							<max x="125.5886" y="129.0988" z="90.86584"/>
+							<center x="3.398739" y="7.629395E-06" z="-5.722046E-06"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="1000" value="0"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="1000" value="2"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="1000" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

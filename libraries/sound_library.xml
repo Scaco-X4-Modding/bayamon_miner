@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<diff>
+
+  <add sel="/soundlibrary">
+   	<sound id="anim_sco_engine2" description="Engine" repeat="-1" is3d="1" preload="0">
+		<sample start="sfx\animation\amb_other_train_loop"/>
+		<volume start="0.8" distance="0.4"/>
+	</sound>
+	<sound id="anim_sco_engine_fire2" description="Engine Fire" repeat="-1" is3d="1" preload="0">
+		<sample start="sfx\animation\anim_generic_fire_01"/>
+		<volume start="0.8" distance="0.4"/> 
+	</sound>
+	
+	<sound id="props_sco_ar_chimney_l2" description="Chimney Fire" repeat="-1" is3d="1" preload="0">
+		<sample start="sfx\animation\anim_generic_fire_01" />
+		<volume start="0.7" distance="0.5" />
+	</sound>  
+  
+	<sound id="props_sco_ar_chimney_m2" description="Chimney Fire" repeat="-1" is3d="1" preload="0">
+		<sample start="sfx\animation\anim_generic_fire_01" />
+		<volume start="0.7" distance="0.2" />
+	</sound>   
+  
+	<sound id="props_sco_ar_chimney_s2" description="Chimney Fire" repeat="-1" is3d="1" preload="0">
+		<sample start="sfx\animation\anim_generic_fire_01" />
+		<volume start="0.7" distance="0.1" />
+	</sound>    
+	
+  </add>
+</diff>

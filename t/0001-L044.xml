@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <diff>
+  <add sel="/language">
+
+	<page id="9771315" title="bayamon miner" descr="Bayamon Bergbau-Träger" voice="yes">
+		<t id="10001">\033CBayamon\033X</t>
+		<t id="10002">Miner</t>
+
+		<t id="11971">\033CBayamon {20204,1901}\033X</t>	<!--Miner-->
+		<t id="11972">\033CBayamon {20204,4501}\033X</t>	<!--Trader-->
+		<t id="11973">After the great war had progressed, the pirates began to capture ship parts and steal entire ships. With these, they built new, large (fighting) ships. Their actual main purposes are trading, stealing, fighting and protecting pirate bases.\n\nBy "certain cooperation" between the pirates and the pioneers, the plans and the experience of the constructors for building such ships reached the pioneers.\n\nThey modified the ship for their purposes. The most important innovation is the newly developed AI. Out of necessity of not being able to provide enough personnel, the ship is controlled by an extremely intelligent AI as standard, which has all control, self-diagnostic as well as good defence skills. The AI is self-learning. The rest is controlled remotely; there is a command bridge as a backup - for emergencies. Otherwise, there is only a small hull crew on board for monitoring the AI and for operational maintenance. Thus, in the end, it became a massive mining ship, which, due to its enormous size, can take on and transport huge quantities and hardly incurs any personnel costs.\n\nIn favour of cargo capacity and machines for processing and compressing ores and gases, life support was reduced to the bare minimum, as well as the energy of entire (superfluous) large gun batteries was diverted, the weapons removed. But beware! Nothing was changed in the reactor and the drives for good reason. Thus, this ship, due to its size, is quite fast and with so many offensive or large ship weapons and its many defensive weapons, it is anything but defenceless (not least due to the powerful non-Lantenz AI!!). The range of reconnaissance (scanners) could also be increased. Thus, even though the ship's technology is getting on in years, it can operate autonomously and safely deep in space.</t>
+		<t id="11974">{20111,3101}</t>
+		<t id="11975">{20111,3201}</t>
+		<t id="11976">{20111,2001}</t>
+
+		<t id="12001">Antimatterdrive</t>
+		<t id="12002">For a long time, the use of M/AM drives was limited to very small vessels like message drones (belonging to a class of self-propelled objects called 'pen craft'). The reason for this was the low availability of antimatter. Only after vessels from long-lost planet Earth proved that larger size M/AM drives were sustainable, research in mass production of antimatter began. The first one to market an H to -H processing plant was inventor Ser-Alman Jonferson.\n\nToday, many medium and large-sized vessels are equipped with M/AM-drives, shortening journeys between planets substantially compared to e.g. directed fusion propulsion systems.\n\nThe M/AM drive is considered a conventional reaction propulsion engine.</t>
+		<t id="12003">Antimatterdrive Mk1</t>
+
+		<!-- ISG (VRO-exclusive)-->
+		<t id="14001">\033CISG XL - Hull Polarization\033X</t>
+		<t id="14002"> is now available. Equip your ship with it now.</t>
+		<t id="14003">{20111,3001} {9771315,10002}</t>
+
+		<t id="90001">{20204,1901} {20204,5001}</t>
+	</page>
+  </add>
+</diff>

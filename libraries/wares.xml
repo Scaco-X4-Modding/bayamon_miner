@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="/wares">
+
+	  <ware id="units_sco_xl_bayamon3_sol" name="{9771315,11971} {20111,3101}" description="{9771315,11973}" group="ships_terran" transport="ship" volume="1" tags="ship">
+		<price min="30800564" average="35734754" max="39529238" />
+		<production time="202" amount="1" method="default" name="{20206,901}">
+		  <primary>
+			<ware ware="energycells" amount="6430" />
+			<ware ware="hullparts" amount="7310" />
+		  </primary>
+		</production>
+		<production time="202" amount="1" method="terran" name="{20206,901}">
+		  <primary>
+			<ware ware="computronicsubstrate" amount="770" />
+			<ware ware="energycells" amount="30854" />
+			<ware ware="metallicmicrolattice" amount="1625" />
+		  </primary>
+		</production>
+		<component ref="units_sco_xl_bayamon3_sol_macro" amount="1" />
+		<restriction licence="capitalship" />
+		<owner faction="pioneers" />
+		<owner faction="player" />
+	  </ware>
+
+	  <ware id="units_sco_xl_bayamon3_liq" name="{9771315,11971} {20111,3201}" description="{9771315,11973}" group="ships_terran" transport="ship" volume="1" tags="ship">
+		<price min="30800564" average="35734754" max="39529238" />
+		<production time="202" amount="1" method="default" name="{20206,901}">
+		  <primary>
+			<ware ware="energycells" amount="6430" />
+			<ware ware="hullparts" amount="7310" />
+		  </primary>
+		</production>
+		<production time="202" amount="1" method="terran" name="{20206,901}">
+		  <primary>
+			<ware ware="computronicsubstrate" amount="770" />
+			<ware ware="energycells" amount="30854" />
+			<ware ware="metallicmicrolattice" amount="1625" />
+		  </primary>
+		</production>
+		<component ref="units_sco_xl_bayamon3_liq_macro" amount="1" />
+		<restriction licence="capitalship" />
+		<owner faction="pioneers" />
+		<owner faction="player" />
+	  </ware>
+
+	  <ware id="units_sco_xl_bayamon3_uni" name="{9771315,11971} {20111,2001}" description="{9771315,11973}" group="ships_terran" transport="ship" volume="1" tags="ship">
+		<price min="30800564" average="35734754" max="39529238" />
+		<production time="202" amount="1" method="default" name="{20206,901}">
+		  <primary>
+			<ware ware="energycells" amount="6430" />
+			<ware ware="hullparts" amount="7310" />
+		  </primary>
+		</production>
+		<production time="202" amount="1" method="terran" name="{20206,901}">
+		  <primary>
+			<ware ware="computronicsubstrate" amount="770" />
+			<ware ware="energycells" amount="30854" />
+			<ware ware="metallicmicrolattice" amount="1625" />
+		  </primary>
+		</production>
+		<component ref="units_sco_xl_bayamon3_uni_macro" amount="1" />
+		<restriction licence="capitalship" />
+		<owner faction="pioneers" />
+		<owner faction="player" />
+	  </ware>
+
+	  <ware id="units_sco_xl_bayamon3_trader" name="{9771315,11972} {20204,4501}" description="{9771315,11973}" group="ships_terran" transport="ship" volume="1" tags="ship">
+		<price min="30800564" average="35734754" max="39529238" />
+		<production time="202" amount="1" method="default" name="{20206,901}">
+		  <primary>
+			<ware ware="energycells" amount="6430" />
+			<ware ware="hullparts" amount="7310" />
+		  </primary>
+		</production>
+		<production time="202" amount="1" method="terran" name="{20206,901}">
+		  <primary>
+			<ware ware="computronicsubstrate" amount="770" />
+			<ware ware="energycells" amount="30854" />
+			<ware ware="metallicmicrolattice" amount="1625" />
+		  </primary>
+		</production>
+		<component ref="units_sco_xl_bayamon3_trader_macro" amount="1" />
+		<restriction licence="capitalship" />
+		<owner faction="pioneers" />
+		<owner faction="player" />
+	  </ware>
+  
+	  <ware id="engine_sco_xl_bayamon3_01" name="{9771315,12001}" description="{9771315,12002}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+		<price min="624061" average="671179" max="718297" />
+		<production time="30" amount="1" method="default" name="{20206,901}">
+		  <primary>
+			<ware ware="antimatterconverters" amount="193" />
+			<ware ware="energycells" amount="50" />
+			<ware ware="engineparts" amount="89" />
+		  </primary>
+		</production>
+		<production time="30" amount="1" method="terran" name="{20206,901}">
+		  <primary>
+			<ware ware="computronicsubstrate" amount="40" />
+			<ware ware="energycells" amount="3950" />
+			<ware ware="metallicmicrolattice" amount="245" />
+			<ware ware="siliconcarbide" amount="38" />
+		  </primary>
+		</production>
+		<component ref="engine_sco_xl_bayamon3_macro" amount="1" />
+		<restriction licence="generaluseequipment" />
+		<use threshold="0" />
+		<owner faction="pioneers" /> 
+		<owner faction="player" /> 
+	  </ware>
+
+	<!-- Int. Schildgeneratoren (VRO-exclusive)
+	<ware id="ishield_bayamon_hp" name="{9771315,14001}" description="{9771315,14001}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+		<price min="80000" average="90000" max="100000" />
+		<production time="1" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="850" />
+					<ware ware="fieldcoils" amount="30" />
+				</primary>
+		</production>
+		<component ref="ishield_bayamon_hp_macro" amount="1" />
+		<owner faction="player" />
+		<owner faction="terran" />
+		<owner faction="pioneers" /> 
+		</ware>		-->
+
+  </add>
+</diff>

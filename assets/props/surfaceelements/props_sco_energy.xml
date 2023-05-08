@@ -1,0 +1,595 @@
+<?xml version="1.0"?>
+<components>
+	<component name="props_sco_energy" class="destructible">
+		<source geometry="extensions\bayamon_miner\assets\props\SurfaceElements\props_sco_energy_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="255" g="255" b="255" range="32" shadowrange="32" lighteffect="1" trigger="1" intensity="0.75">
+						<lightanimations/>
+						<offset>
+							<position x="-42.21931" y="18.71431" z="-105.311"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni02" shadow="0" r="255" g="255" b="255" range="32" shadowrange="32" lighteffect="1" trigger="1" intensity="0.75">
+						<lightanimations/>
+						<offset>
+							<position x="41.52782" y="18.71431" z="-105.311"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni03" shadow="0" r="255" g="255" b="255" range="32" shadowrange="32" lighteffect="1" trigger="1" intensity="0.75">
+						<lightanimations/>
+						<offset>
+							<position x="41.52782" y="18.71431" z="-23.80185"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni04" shadow="0" r="255" g="255" b="255" range="32" shadowrange="32" lighteffect="1" trigger="1" intensity="0.75">
+						<lightanimations/>
+						<offset>
+							<position x="-42.21931" y="18.71431" z="-23.80185"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni05" shadow="0" r="255" g="255" b="255" range="32" shadowrange="32" lighteffect="1" trigger="1" intensity="0.75">
+						<lightanimations/>
+						<offset>
+							<position x="41.52782" y="18.71431" z="24.24178"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni06" shadow="0" r="255" g="255" b="255" range="32" shadowrange="32" lighteffect="1" trigger="1" intensity="0.75">
+						<lightanimations/>
+						<offset>
+							<position x="-42.21931" y="18.71431" z="24.24178"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni07" shadow="0" r="255" g="255" b="255" range="32" shadowrange="32" lighteffect="1" trigger="1" intensity="0.75">
+						<lightanimations/>
+						<offset>
+							<position x="41.52782" y="18.71431" z="105.7238"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni08" shadow="0" r="255" g="255" b="255" range="32" shadowrange="32" lighteffect="1" trigger="1" intensity="0.75">
+						<lightanimations/>
+						<offset>
+							<position x="-42.21931" y="18.71431" z="105.7238"/>
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="destructible">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="part_socket" wreck="part_socket_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01"/>
+									<material id="2" ref="argon.ar_unique_04"/>
+									<material id="3" ref="argon.ar_hullpattern_05"/>
+									<material id="4" ref="argon.ar_hulls_02"/>
+									<material id="5" ref="argon.ar_windows_02"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="86.35004" y="41.09548" z="150.805"/>
+							<center x="0" y="29.52489" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part animation detail_s  ">
+				<offset>
+					<position x="35.2492" y="50.0953" z="-64.71039"/>
+				</offset>
+				<animations>
+					<animation name="loop_random" start="1" end="200"/>
+				</animations>
+				<parts>
+					<part name="detail_s_wheel07">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="8.840446" y="8.840446" z="2.300481"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+						<size_raw>
+							<max x="8.840447" y="8.840447" z="2.300483"/>
+							<center x="0" y="0" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part animation detail_s  ">
+				<offset>
+					<position x="-35.71425" y="50.0953" z="-64.93842"/>
+					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08"/>
+				</offset>
+				<animations>
+					<animation name="loop_random" start="1" end="200"/>
+				</animations>
+				<parts>
+					<part name="detail_s_wheel05">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="8.840447" y="8.841408" z="2.304445"/>
+							<center x="-3.814697E-06" y="0" z="0"/>
+						</size>
+						<size_raw>
+							<max x="8.840444" y="8.840447" z="2.30048"/>
+							<center x="0" y="0" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part animation detail_s  ">
+				<offset>
+					<position x="35.71423" y="50.0953" z="64.93843"/>
+					<quaternion qx="-0" qy="-0.9990482" qz="-0" qw="-4.361958E-02"/>
+				</offset>
+				<animations>
+					<animation name="loop_random" start="1" end="200"/>
+				</animations>
+				<parts>
+					<part name="detail_s_wheel03">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="8.840446" y="8.841408" z="2.304445"/>
+							<center x="3.814697E-06" y="0" z="0"/>
+						</size>
+						<size_raw>
+							<max x="8.840447" y="8.840447" z="2.300487"/>
+							<center x="3.814697E-06" y="0" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part animation  ">
+				<offset>
+					<position x="0.2325134" y="41.24944" z="-64.82442"/>
+				</offset>
+				<animations>
+					<animation name="loop_random" start="1" end="200"/>
+				</animations>
+				<parts>
+					<part name="detail_l_pump02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01"/>
+									<material id="3" ref="argon.ar_hullpattern_05"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01"/>
+									<material id="3" ref="argon.ar_hullpattern_05"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01"/>
+									<material id="3" ref="argon.ar_hullpattern_05"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="28.27746" y="51.54345" z="28.27746"/>
+							<center x="0" y="7.141045" z="0"/>
+						</size>
+						<size_raw>
+							<max x="28.27746" y="44.4024" z="28.27747"/>
+							<center x="0" y="-0.1152344" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection06" tags="part animation detail_s  " parent="detail_l_pump02">
+				<offset>
+					<position x="-7.629395E-06" y="17.74675" z="0"/>
+				</offset>
+				<parts>
+					<part name="detail_s_pump02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_unique_04"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="29.09034" y="35.62016" z="29.09035"/>
+							<center x="0" y="7.256279" z="0"/>
+						</size>
+						<size_raw>
+							<max x="29.09034" y="28.36388" z="29.09035"/>
+							<center x="9.536743E-07" y="0" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+				<animations>
+					<animation name="loop_random" start="1" end="200"/>
+				</animations>
+			</connection>
+			<connection name="Connection07" tags="part iklink textureanimation animation  " parent="detail_l_pump02">
+				<offset>
+					<position x="-0.4650345" y="14.80835" z="0"/>
+				</offset>
+				<animations>
+					<animation name="loop_random" start="1" end="200"/>
+				</animations>
+				<parts>
+					<part name="anim_fx_pump_glow02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.gradient_blue"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="26.09094" y="10.2355" z="26.09094"/>
+							<center x="1.907349E-06" y="7.256271" z="0"/>
+						</size>
+						<size_raw>
+							<max x="26.09093" y="2.979225" z="26.09094"/>
+							<center x="1.907349E-06" y="-7.629395E-06" z="0"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0.6"/>
+									<key frame="20" value="0.6"/>
+									<key frame="100" value="0.3"/>
+									<key frame="200" value="0.6"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part nocollision animation textureanimation  ">
+				<offset>
+					<position x="0" y="57.80341" z="-3.814697E-06"/>
+				</offset>
+				<animations>
+					<animation name="loop_random" start="1" end="60"/>
+				</animations>
+				<parts>
+					<part name="anim_fx_poslights01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.gradient_red"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="68.63004" y="12.90473" z="132.8715"/>
+							<center x="0" y="7.629395E-06" z="3.814697E-06"/>
+						</size>
+						<size_raw>
+							<max x="68.63004" y="12.90472" z="132.8715"/>
+							<center x="3.814697E-06" y="7.629395E-06" z="3.814697E-06"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="1" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="60" value="0" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection09" tags="part animation  ">
+				<offset>
+					<position x="0.2325134" y="55.76188" z="64.82442"/>
+				</offset>
+				<animations>
+					<animation name="loop_random" start="1" end="200"/>
+				</animations>
+				<parts>
+					<part name="detail_l_pump01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01"/>
+									<material id="3" ref="argon.ar_hullpattern_05"/>
+									<material id="4" ref="Material #143645"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01"/>
+									<material id="3" ref="argon.ar_hullpattern_05"/>
+									<material id="4" ref="Material #143645"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01"/>
+									<material id="3" ref="argon.ar_hullpattern_05"/>
+									<material id="4" ref="Material #143645"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="28.27746" y="51.54361" z="28.27746"/>
+							<center x="0" y="-7.371674" z="0"/>
+						</size>
+						<size_raw>
+							<max x="28.27746" y="44.4024" z="28.27747"/>
+							<center x="0" y="-0.1152344" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection10" tags="part animation detail_s  " parent="detail_l_pump01">
+				<offset>
+					<position x="-7.629395E-06" y="17.74675" z="-1.525879E-05"/>
+				</offset>
+				<parts>
+					<part name="detail_s_pump01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_unique_04"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="29.09034" y="35.62032" z="29.09035"/>
+							<center x="0" y="-7.256439" z="0"/>
+						</size>
+						<size_raw>
+							<max x="29.09034" y="28.36388" z="29.09035"/>
+							<center x="9.536743E-07" y="0" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+				<animations>
+					<animation name="loop_random" start="1" end="200"/>
+				</animations>
+			</connection>
+			<connection name="Connection11" tags="part iklink textureanimation animation  " parent="detail_l_pump01">
+				<offset>
+					<position x="0" y="14.80403" z="1.525879E-05"/>
+				</offset>
+				<animations>
+					<animation name="loop_random" start="1" end="200"/>
+				</animations>
+				<parts>
+					<part name="anim_fx_pump_glow01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.gradient_blue"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="26.09093" y="10.23566" z="26.09093"/>
+							<center x="-1.907349E-06" y="-7.256447" z="0"/>
+						</size>
+						<size_raw>
+							<max x="26.09093" y="2.979225" z="26.09093"/>
+							<center x="-1.907349E-06" y="-7.629395E-06" z="0"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0.3"/>
+									<key frame="100" value="0.6"/>
+									<key frame="120" value="0.6"/>
+									<key frame="200" value="0.3"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection12" tags="part detail_s  ">
+				<offset/>
+				<parts>
+					<part name="detail_s_alpha">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_unique_04"/>
+									<material id="2" ref="argon.ar_trims_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="68.54748" y="40.21304" z="133.0024"/>
+							<center x="0" y="42.34378" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection13" tags="part animation detail_s  ">
+				<offset>
+					<position x="-0.1184998" y="50.0953" z="-100.3061"/>
+					<quaternion qx="-0" qy="-0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+				<animations>
+					<animation name="loop_random" start="1" end="200"/>
+				</animations>
+				<parts>
+					<part name="detail_s_wheel08">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="8.840446" y="8.841125" z="2.30328"/>
+							<center x="-9.536743E-07" y="0" z="0"/>
+						</size>
+						<size_raw>
+							<max x="8.840444" y="8.840447" z="2.30048"/>
+							<center x="-8.34465E-07" y="0" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection14" tags="part animation detail_s  ">
+				<offset>
+					<position x="-0.3465271" y="50.0953" z="-29.34268"/>
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+				<animations>
+					<animation name="loop_random" start="1" end="200"/>
+				</animations>
+				<parts>
+					<part name="detail_s_wheel06">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="8.840446" y="8.841125" z="2.303281"/>
+							<center x="2.324581E-06" y="0" z="-1.907349E-06"/>
+						</size>
+						<size_raw>
+							<max x="8.840447" y="8.840447" z="2.300483"/>
+							<center x="2.503395E-06" y="0" z="-1.907349E-06"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection15" tags="part animation detail_s  ">
+				<offset>
+					<position x="-35.24922" y="50.0953" z="64.71039"/>
+				</offset>
+				<animations>
+					<animation name="loop_random" start="1" end="200"/>
+				</animations>
+				<parts>
+					<part name="detail_s_wheel01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="8.840448" y="8.840446" z="2.300491"/>
+							<center x="-3.814697E-06" y="0" z="0"/>
+						</size>
+						<size_raw>
+							<max x="8.840448" y="8.840447" z="2.300488"/>
+							<center x="-3.814697E-06" y="0" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection16" tags="part animation detail_s  ">
+				<offset>
+					<position x="0.1184845" y="50.0953" z="100.3061"/>
+					<quaternion qx="-0" qy="-0.7071068" qz="-0" qw="-0.7071067"/>
+				</offset>
+				<animations>
+					<animation name="loop_random" start="1" end="200"/>
+				</animations>
+				<parts>
+					<part name="detail_s_wheel04">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="8.840447" y="8.841127" z="2.30329"/>
+							<center x="9.536743E-07" y="0" z="0"/>
+						</size>
+						<size_raw>
+							<max x="8.840448" y="8.840447" z="2.300488"/>
+							<center x="5.960464E-07" y="0" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection17" tags="part animation detail_s  ">
+				<offset>
+					<position x="0.3465233" y="50.0953" z="29.34268"/>
+					<quaternion qx="-0" qy="0.7071066" qz="-0" qw="-0.7071069"/>
+				</offset>
+				<animations>
+					<animation name="loop_random" start="1" end="200"/>
+				</animations>
+				<parts>
+					<part name="detail_s_wheel02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="8.840446" y="8.841124" z="2.30327"/>
+							<center x="-8.940697E-07" y="0" z="-1.907349E-06"/>
+						</size>
+						<size_raw>
+							<max x="8.840448" y="8.840447" z="2.300488"/>
+							<center x="-5.960464E-07" y="0" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection18" tags="part  ">
+				<offset>
+					<position x="0" y="0" z="377.0125"/>
+				</offset>
+				<parts/>
+			</connection>
+		</connections>
+	</component>
+</components>
